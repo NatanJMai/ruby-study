@@ -123,3 +123,78 @@ Processing by ArticlesController#index as HTML
 Completed 200 OK in 640ms (Views: 519.6ms | ActiveRecord: 0.0ms | Allocations: 40871)
 
 
+Started GET "/index" for ::1 at 2023-04-11 09:00:35 +0930
+  
+ActionController::RoutingError (No route matches [GET] "/index"):
+  
+Started GET "/article" for ::1 at 2023-04-11 09:00:47 +0930
+  
+ActionController::RoutingError (No route matches [GET] "/article"):
+  
+Started GET "/" for ::1 at 2023-04-11 09:00:50 +0930
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 5.4ms | Allocations: 122)
+  Rendered layout layouts/application.html.erb (Duration: 408.8ms | Allocations: 36718)
+Completed 200 OK in 456ms (Views: 414.4ms | ActiveRecord: 0.0ms | Allocations: 39060)
+
+
+Started GET "/" for ::1 at 2023-04-11 09:01:05 +0930
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  Rendered articles/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 8.0ms | Allocations: 2492)
+Completed 200 OK in 12ms (Views: 9.1ms | ActiveRecord: 0.0ms | Allocations: 2794)
+
+
+Started GET "/home" for ::1 at 2023-04-11 09:06:38 +0930
+  
+ActionController::RoutingError (No route matches [GET] "/home"):
+  
+Started GET "/home/index" for ::1 at 2023-04-11 09:06:42 +0930
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 124)
+  Rendered layout layouts/application.html.erb (Duration: 86.9ms | Allocations: 36638)
+Completed 200 OK in 106ms (Views: 93.2ms | ActiveRecord: 0.0ms | Allocations: 38995)
+
+
+Started GET "/home/index" for ::1 at 2023-04-11 09:07:37 +0930
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 6.9ms | Allocations: 123)
+  Rendered layout layouts/application.html.erb (Duration: 23.8ms | Allocations: 3073)
+Completed 200 OK in 33ms (Views: 30.2ms | ActiveRecord: 0.0ms | Allocations: 3953)
+
+
+Started GET "/home/index" for ::1 at 2023-04-11 09:08:27 +0930
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 34.8ms | Allocations: 14535)
+Completed 200 OK in 40ms (Views: 36.5ms | Allocations: 15187)
+
+
+Started GET "/" for ::1 at 2023-04-11 09:08:31 +0930
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 7.6ms | Allocations: 2479)
+Completed 200 OK in 12ms (Views: 8.7ms | Allocations: 2771)
+
+
+Started GET "/" for ::1 at 2023-04-11 09:10:27 +0930
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 28.7ms | Allocations: 14526)
+Completed 200 OK in 32ms (Views: 30.7ms | Allocations: 15179)
+
+

@@ -1,10 +1,10 @@
 {
   "ExpandedNodes": [
     "",
+    "\\app",
     "\\app\\views",
-    "\\app\\views\\articles",
-    "\\db"
+    "\\app\\views\\home",
+    "\\app\\views\\layouts"
   ],
-  "SelectedNode": "\\db\\seeds.rb",
   "PreviewInSolutionExplorer": false
 }
